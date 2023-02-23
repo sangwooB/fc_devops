@@ -1,0 +1,8 @@
+image:
+  repository: amazon/aws-cli
+  tag: latest
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: aws-cli

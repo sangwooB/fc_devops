@@ -1,0 +1,9 @@
+replicaCount: 1
+
+region: ap-northeast-1
+clusterName: bsw-eks
+
+ingressClass: alb
+
+enableWaf: false
+enableWafv2: false

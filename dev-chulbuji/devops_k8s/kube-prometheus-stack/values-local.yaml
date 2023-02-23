@@ -1,0 +1,51 @@
+namespaceOverride: prom
+
+defaultRules:
+  create: false
+
+alertmanager:
+  enabled: false
+
+grafana:
+  enabled: false
+
+kubeApiServer:
+  enabled: false
+
+kubelet:
+  enabled: false
+
+kubeControllerManager:
+  enabled: false
+
+coreDns:
+  enabled: false
+
+kubeDns:
+  enabled: false
+
+kubeEtcd:
+  enabled: false
+
+kubeScheduler:
+  enabled: false
+
+kubeProxy:
+  enabled: false
+
+kubeStateMetrics:
+  enabled: false
+
+nodeExporter:
+  enabled: false
+
+prometheus:
+  enabled: true
+
+prometheusOperator:
+  enabled: true
+  serviceMonitor:
+    selfMonitor: false
+  createCustomResource: true
+  cleanupCustomResource: true
+  cleanupCustomResourceBeforeInstall: true
